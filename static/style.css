@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree';
+    text-align: center;
+    font-size: 18px;
+
+}
+
+header {
+    background-image: url("../images/bg-header-desktop.png");
+    background-size: cover;
+}
+
+.header-container {
+    width: 50%;
+    margin: 0 auto 90px auto;
+}
+
+.logo-img {
+    margin: 50px 20px;
+
+}
+
+.head-title {
+    margin: 20px;
+}
+
+.head-btn1 {
+    background-color: hsl(171, 66%, 44%);
+    padding: 10px 30px;
+    border-radius: 30px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: hsl(0, 33%, 96%);
+}
+
+.head-btn2 {
+    background-color: hsl(233, 100%, 69%);
+    padding: 10px 30px;
+    border-radius: 30px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: hsl(0, 33%, 96%);
+
+}
+
+
+
+.head-note {
+    margin: 50px; 
+}
+
+
+.article1 {
+    margin-top: 50px; 
+    width: 70%;
+    margin: 0 auto 90px auto;
+}
+
+
+.article1-flex {
+    display: flex;
+}
+
+.article1-flex img {
+    width: 60%;
+    height: 50%;
+}
+
+.article1-flex div {
+    padding-left: 30px;
+
+}
+
+.article1-flexText {
+    padding-top: 40px;
+    text-align: start;
+    font-size: 16px;
+}
+
+.article1-flexText h3 {
+    margin: 20px 0;
+}
+
+
+.article2 p, .article2 h1 {
+    width: 40%;
+    margin: 0 auto 20px auto;
+}
+
+.article2 img{
+    margin: 40px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.article3 h1, .article3 p {
+    width: 40%;
+    margin: 0 auto 20px auto;
+
+}
+
+.article3-flex {
+    display: flex;
+    width: 80%;
+    font-size: 14px;
+    margin: 20px auto 40px auto;
+}
+
+
+.article3-flex div {
+    padding: 10px;
+
+}
+
+.article3-flex div h3 {
+    margin: 40px 0 20px;
+}
+
+.article4 img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.article5 {
+    width: 50%;
+    margin: 90px auto;
+
+}
+
+.article5 h1 {
+    margin: 20px;
+}
+
+
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto 40px auto;
+    padding: 10px;
+    background-color: hsl(210, 6%, 97%);
+}
+
+
+.footer-flex a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+
+.footer-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer-text a {
+    padding: 20px;
+    text-align: start;
+}
+
+.footer-logo {
+    width: 60px;
+    height: 60px;
+    margin-top:40px;
+}
+
+.footer-links {
+    margin-top:20px;
+}
+
+.footer-links img{
+    padding-left: 20px;
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    body{
+        font-size: 15px;
+        text-align: center;
+    }
+    header {
+        background-image: url("../images/bg-header-mobile.png");
+
+    }
+
+    .header-container, .head-note {
+        text-align: center;
+        font-size: 14px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+    .head-btn1 {
+        margin-bottom: 1px;
+    }
+
+    .article1-flex {
+        display: block;
+    }
+
+    .article1-flex div {
+        text-align: center;
+    }
+
+    .article3-flex {
+        display: block;
+        margin-top: 60px;
+    }
+
+    .article3-flex div {
+        margin-top: 30px;
+
+    }
+
+    .footer-flex {
+        display: block;
+    }
+
+    .footer-text {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 20px 0;
+        line-height: 50px;
+    }
+
+    .footer-text a {
+        margin: 15px;
+    }
+
+    .attribution {
+        display: none;
+    }
+
+    .article4 {
+        display: block;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
