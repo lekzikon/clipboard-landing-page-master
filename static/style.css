@@ -167,6 +167,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-top:20px;
 }
 
 .footer-text a {
@@ -177,7 +178,7 @@ header {
 .footer-logo {
     width: 60px;
     height: 60px;
-    margin-top:40px;
+    margin-top:20px;
 }
 
 .footer-links {
